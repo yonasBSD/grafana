@@ -774,6 +774,10 @@ const (
 	// Enables the raw DSL query editor in the Elasticsearch data source
 	FlagElasticsearchRawDSLQuery = "elasticsearchRawDSLQuery"
 
+	// FlagElasticsearchESQLQuery
+	// Enables the ES|QL query editor in the Elasticsearch data source
+	FlagElasticsearchESQLQuery = "elasticsearchESQLQuery"
+
 	// FlagAwsDatasourcesHttpProxy
 	// Enables http proxy settings for aws datasources
 	FlagAwsDatasourcesHttpProxy = "awsDatasourcesHttpProxy"
@@ -806,9 +810,9 @@ const (
 	// Enables team APIs in the app platform
 	FlagKubernetesTeamsApi = "kubernetesTeamsApi"
 
-	// FlagKubernetesTeamsHandlerRedirect
+	// FlagKubernetesTeamsRedirect
 	// Redirects the request of the team endpoints to the app platform APIs
-	FlagKubernetesTeamsHandlerRedirect = "kubernetesTeamsHandlerRedirect"
+	FlagKubernetesTeamsRedirect = "kubernetesTeamsRedirect"
 
 	// FlagKubernetesUsersApi
 	// Enables user APIs in the app platform
@@ -838,9 +842,9 @@ const (
 	// Use the new APIs for syncing users to teams
 	FlagKubernetesTeamSync = "kubernetesTeamSync"
 
-	// FlagKubernetesTeamService
-	// Use the new team service that uses the app platform APIs
-	FlagKubernetesTeamService = "kubernetesTeamService"
+	// FlagKubernetesUsersRedirect
+	// Redirects the requests of the user service to the app platform APIs
+	FlagKubernetesUsersRedirect = "kubernetesUsersRedirect"
 
 	// FlagAlertingMultiplePolicies
 	// Enables the ability to create multiple alerting policies
@@ -865,6 +869,10 @@ const (
 	// FlagAlertingNotificationHistoryTriage
 	// Enables the notification history timeline in the triage instance details drawer
 	FlagAlertingNotificationHistoryTriage = "alertingNotificationHistoryTriage"
+
+	// FlagAlertingNotificationHistoryDetail
+	// Enables the notification history detail page
+	FlagAlertingNotificationHistoryDetail = "alertingNotificationHistoryDetail"
 
 	// FlagReact19
 	// Whether to use the new React 19 runtime
