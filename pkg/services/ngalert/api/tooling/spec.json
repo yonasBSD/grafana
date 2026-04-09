@@ -3524,6 +3524,7 @@
         ],
         "summary": "Get all the contact points.",
         "operationId": "RouteGetContactpoints",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -3557,6 +3558,7 @@
         ],
         "summary": "Create a contact point.",
         "operationId": "RoutePostContactpoints",
+        "deprecated": true,
         "parameters": [
           {
             "name": "Body",
@@ -3669,6 +3671,7 @@
         ],
         "summary": "Update an existing contact point.",
         "operationId": "RoutePutContactpoint",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -3721,6 +3724,7 @@
         ],
         "summary": "Delete a contact point.",
         "operationId": "RouteDeleteContactpoints",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -3958,6 +3962,7 @@
         ],
         "summary": "Get all the mute timings.",
         "operationId": "RouteGetMuteTimings",
+        "deprecated": true,
         "responses": {
           "200": {
             "description": "MuteTimings",
@@ -3983,6 +3988,7 @@
         ],
         "summary": "Create a new mute timing.",
         "operationId": "RoutePostMuteTiming",
+        "deprecated": true,
         "parameters": [
           {
             "name": "Body",
@@ -4079,6 +4085,7 @@
         ],
         "summary": "Get a mute timing.",
         "operationId": "RouteGetMuteTiming",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -4116,6 +4123,7 @@
         ],
         "summary": "Replace an existing mute timing.",
         "operationId": "RoutePutMuteTiming",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -4171,6 +4179,7 @@
         ],
         "summary": "Delete a mute timing.",
         "operationId": "RouteDeleteMuteTiming",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -4277,6 +4286,7 @@
         ],
         "summary": "Get the notification policy tree.",
         "operationId": "RouteGetPolicyTree",
+        "deprecated": true,
         "responses": {
           "200": {
             "description": "Route",
@@ -4302,6 +4312,7 @@
         ],
         "summary": "Sets the notification policy tree.",
         "operationId": "RoutePutPolicyTree",
+        "deprecated": true,
         "parameters": [
           {
             "description": "The new notification routing tree to use",
@@ -4348,6 +4359,7 @@
         ],
         "summary": "Clears the notification policy tree.",
         "operationId": "RouteResetPolicyTree",
+        "deprecated": true,
         "responses": {
           "202": {
             "description": "Ack",
@@ -4409,6 +4421,7 @@
         ],
         "summary": "Get all notification template groups.",
         "operationId": "RouteGetTemplates",
+        "deprecated": true,
         "responses": {
           "200": {
             "description": "NotificationTemplates",
@@ -4433,6 +4446,7 @@
         ],
         "summary": "Get a notification template group.",
         "operationId": "RouteGetTemplate",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -4473,6 +4487,7 @@
         ],
         "summary": "Updates an existing notification template group.",
         "operationId": "RoutePutTemplate",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
@@ -4528,6 +4543,7 @@
         ],
         "summary": "Delete a notification template group.",
         "operationId": "RouteDeleteTemplate",
+        "deprecated": true,
         "parameters": [
           {
             "type": "string",
