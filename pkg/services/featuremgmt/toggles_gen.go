@@ -135,10 +135,6 @@ const (
 	// Enable folder.grafana.app cascade deletion: opt-in non-empty delete via gracePeriodSeconds=0. Until cascade reconciliation exists, deleting a non-empty folder removes only the folder and leaves child dashboards, nested folders, and other contained resources orphaned
 	FlagKubernetesFolderCascadeDelete = "kubernetesFolderCascadeDelete"
 
-	// FlagKubernetesShortURLs
-	// Enables k8s short URL API and uses it under the hood when handling legacy /api
-	FlagKubernetesShortURLs = "kubernetesShortURLs"
-
 	// FlagKubernetesCorrelations
 	// Adds support for Kubernetes correlations
 	FlagKubernetesCorrelations = "kubernetesCorrelations"
@@ -343,9 +339,9 @@ const (
 	// Enables a flow to get started with a new dashboard from a template
 	FlagDashboardTemplates = "dashboardTemplates"
 
-	// FlagGrafanaOrgDashboardTemplates
-	// Enables org-defined dashboard templates for enterprise
-	FlagGrafanaOrgDashboardTemplates = "grafana.orgDashboardTemplates"
+	// FlagGrafanaCustomDashboardTemplates
+	// Enables custom dashboard templates for enterprise
+	FlagGrafanaCustomDashboardTemplates = "grafana.customDashboardTemplates"
 
 	// FlagAlertingNavigationV2
 	// Enables the new Alerting navigation structure with improved menu grouping
@@ -861,10 +857,6 @@ const (
 	// FlagAdvisorDatasourceIntegration
 	// Enables the advisor report integration with datasource pages
 	FlagAdvisorDatasourceIntegration = "advisorDatasourceIntegration"
-
-	// FlagLogsTablePanelNG
-	// Enables the logs tableNG panel to replace existing tableRT
-	FlagLogsTablePanelNG = "logsTablePanelNG"
 
 	// FlagFrontendServiceSSOAutoLogin
 	// Returns SSO auto-login information in /bootdata to automatically log in users with SSO when they access Grafana
